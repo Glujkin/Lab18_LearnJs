@@ -75,4 +75,36 @@ console.log("typeof function(){} =", typeof function(){});
 
 let data = null;
 console.log("\nПравильная проверка на null:");
-console.log("data === null ?", data === null); 
+console.log("data === null ?", data === null);
+console.log("\n ШАГ 8: Преобразования типов ");
+
+
+console.log(" Явные");
+console.log('Number("42") =', Number("42"));
+console.log('String(100) =', String(100));
+console.log('Boolean(1) =', Boolean(1));
+console.log('Boolean(0) =', Boolean(0));
+console.log('parseInt("3.14") =', parseInt("3.14"));
+console.log('parseFloat("3.14") =', parseFloat("3.14"));
+
+
+console.log("\n Неявные ");
+console.log('"5" + 3 =', "5" + 3);       
+console.log('"5" - 3 =', "5" - 3);       
+console.log('"10" * 2 =', "10" * 2);     
+console.log('"5" + 3 + 2 =', "5" + 3 + 2); 
+console.log("\n ШАГ 9: Сравнение ");
+
+console.log('5 == "5" :', 5 == "5");     
+console.log('5 === "5" :', 5 === "5");   
+console.log('5 != "5" :', 5 != "5");     
+console.log('5 !== "5" :', 5 !== "5");   
+
+const obj1 = { name: "Тимофей" };
+const obj2 = { name: "Иван" };
+const obj3 = obj1;
+
+console.log("\n Сравнение объектов ");
+console.log("obj1 == obj2 :", obj1 == obj2);   
+console.log("obj1 === obj2:", obj1 === obj2);  
+console.log("obj1 === obj3:", obj1 === obj3);  
