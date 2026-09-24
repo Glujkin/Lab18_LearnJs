@@ -20,7 +20,7 @@ value = "Теперь это строка";
 console.log("После изменения типа:", value, "— тип:", typeof value);
 
 
-console.log("\n--- Примитивные типы ---");
+console.log("\n Примитивные типы ");
 let str = "Привет";           
 let num = 42;                  
 let big = 9007199254740991n;   
@@ -57,3 +57,22 @@ const arr = [1, 2, 3];
 console.log("Массив до изменения:", arr);
 arr.push(4); 
 console.log("Массив после push:", arr);
+console.log("\n ШАГ 7: typeof");
+
+let newPrice = 999;
+console.log("Значение:", newPrice, "— тип:", typeof newPrice);
+
+newPrice = "Девятьсот девяносто девять";
+console.log("Значение:", newPrice, "— тип:", typeof newPrice);
+
+
+console.log("\n Особенности typeof ");
+console.log("typeof null =", typeof null);          
+console.log("typeof [] =", typeof []);               
+console.log("typeof {} =", typeof {});               
+console.log("typeof function(){} =", typeof function(){}); 
+
+
+let data = null;
+console.log("\nПравильная проверка на null:");
+console.log("data === null ?", data === null); 
