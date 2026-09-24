@@ -108,3 +108,20 @@ console.log("\n Сравнение объектов ");
 console.log("obj1 == obj2 :", obj1 == obj2);   
 console.log("obj1 === obj2:", obj1 === obj2);  
 console.log("obj1 === obj3:", obj1 === obj3);  
+console.log("\n ШАГ 10: Консоль");
+
+let x1 = 10;
+let y1 = 2;
+
+console.log("x1 + y1 =", x1 + y1);
+console.log("x1 - y1 =", x1 - y1);
+console.log("x1 * y1 =", x1 * y1);
+console.log("x1 / y1 =", x1 / y1);
+
+
+x1 = "10";
+console.log("\nПосле изменения x1 на строку:");
+console.log('x1 + y1 =', x1 + y1);
+console.log('x1 - y1 =', x1 - y1); 
+console.log('x1 * y1 =', x1 * y1); 
+console.log('x1 / y1 =', x1 / y1); 
